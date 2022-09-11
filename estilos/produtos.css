@@ -1,0 +1,106 @@
+
+html {
+    max-height: 100%;
+    background: linear-gradient(grey, white);
+}
+
+body {
+    background: linear-gradient(grey, white);
+}
+
+
+header 
+
+main {
+    background: linear-gradient(grey, white);
+}
+
+
+
+nav {
+    width: 800px;
+    margin: auto;
+}
+
+.a {
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.b {
+    display: inline;
+    padding: 0 13px;
+}
+
+a {
+    padding: 3px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+a:hover {
+    padding: 3px;
+    font-size: 32px;
+    border: 1px solid cyan;
+    border-radius: 4px;
+    transition: 0.5s;
+
+}
+
+.menu-produtos {
+    width: 800px;
+    margin: auto;
+    padding: 20px 0 0;
+}
+
+.lista-produtos {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 15px;
+    height: 30%;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.imagem-lista {
+    width: 200px;
+    height: 250px;
+}
+
+.lista-produtos > p, h1 {
+    text-align: center;
+}
+
+.lista-produtos h1 {
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 20px 0;
+    background: url(a.jpeg);
+}
+
+.img-rodape {
+    width: 50px;
+    margin: auto;
+}
+
+.img-rodape > img {
+    width: 50px;
+
+}
+
+footer > p {
+    text-align: center;
+}
